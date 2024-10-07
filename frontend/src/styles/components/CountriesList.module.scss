@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    max-width: 1200px;
+    margin: 10px auto;
+    gap: 10px;
+    .item{
+        height: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        color: var(--bodytext-color);
+        transition: all .1s ease-in-out;
+        &:hover{
+            background-color: var(--primary-color);
+            color: var(--foreground-color);
+        }
+    }
+    .emoji{
+        font-size: 35px;
+    }
+}

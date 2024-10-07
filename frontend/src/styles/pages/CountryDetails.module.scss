@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        .emoji{
+            margin: 0 auto;
+        }
+    }
+}
